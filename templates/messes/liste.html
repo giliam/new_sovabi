@@ -1,0 +1,5 @@
+<ul>
+{% for messe in messes %}
+<li>{{ messe.messe_date }} ({{ messe.type_celebration }}) à {{ messe.lieu }}</li>
+{% endfor %}
+</ul>
